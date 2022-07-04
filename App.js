@@ -1,18 +1,22 @@
 import React from 'react';
-import {Text, SafeAreaView, View, ScrollView} from 'react-native';
+import {SafeAreaView} from 'react-native';
+
+// screens
 import HomeScreen from './src/screens/Home';
-import Post from './src/components/Post';
+import SearchResultScreen from './src/screens/SearchResult';
+import DestinationSearchScreen from './src/screens/DestinationSearch';
 
-// data
-import feed from './assets/data/feed';
+// components
 
-const post1 = feed[0]
+
 
 const App = () => {
   return (
     <SafeAreaView>
       {/* <HomeScreen /> */}
-        <Post post={post1} />       
+      {/* <Post post={post1} />        */}
+      {/* <SearchResultScreen /> */}
+      <DestinationSearchScreen />
     </SafeAreaView>
   );
 };
