@@ -5,6 +5,7 @@ import {SafeAreaView} from 'react-native';
 import HomeScreen from './src/screens/Home';
 import SearchResultScreen from './src/screens/SearchResult';
 import DestinationSearchScreen from './src/screens/DestinationSearch';
+import GuestsScreen from './src/screens/Guests';
 
 // components
 
@@ -16,7 +17,8 @@ const App = () => {
       {/* <HomeScreen /> */}
       {/* <Post post={post1} />        */}
       {/* <SearchResultScreen /> */}
-      <DestinationSearchScreen />
+      {/* <DestinationSearchScreen /> */}
+      <GuestsScreen />
     </SafeAreaView>
   );
 };

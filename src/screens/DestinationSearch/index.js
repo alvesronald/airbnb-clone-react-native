@@ -26,7 +26,7 @@ const DestinationSearchScreen = () => {
        <FlatList 
           data={data}       
           renderItem={({ item }) => (
-            <TouchableOpacity>
+            <TouchableOpacity onPress={() => console.warn(item.description)}>
               <View style={styles.row}>
                 <View style={styles.iconContainer}>
                   <Entypo name="location-pin" size={35}  />
