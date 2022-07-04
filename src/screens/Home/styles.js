@@ -39,7 +39,8 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     position: 'absolute',
     top: 20,
-    zIndex: 10,
+    zIndex: 100, // IOS
+    elevation: 100 // ANDROID
   },
   searchButtonText: {
     fontSize: 16,
