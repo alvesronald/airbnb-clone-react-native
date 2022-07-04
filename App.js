@@ -6,6 +6,7 @@ import HomeScreen from './src/screens/Home';
 import SearchResultScreen from './src/screens/SearchResult';
 import DestinationSearchScreen from './src/screens/DestinationSearch';
 import GuestsScreen from './src/screens/Guests';
+import Routes from './src/navigation/Routes';
 
 // components
 
@@ -13,13 +14,7 @@ import GuestsScreen from './src/screens/Guests';
 
 const App = () => {
   return (
-    <SafeAreaView>
-      {/* <HomeScreen /> */}
-      {/* <Post post={post1} />        */}
-      {/* <SearchResultScreen /> */}
-      {/* <DestinationSearchScreen /> */}
-      <GuestsScreen />
-    </SafeAreaView>
+     <Routes />
   );
 };
 

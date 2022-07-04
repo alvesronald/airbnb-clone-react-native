@@ -17,6 +17,15 @@ const styles = StyleSheet.create({
         marginHorizontal: 20,
         borderBottomWidth: 1,
         borderColor: 'lightgrey'
+    },
+    title:{
+        marginHorizontal: 20,
+        fontSize: 16,
+        color: '#000'
+    },
+    actionText:{
+        fontSize: 20, 
+        color: '#474747'
     }
 });
 
