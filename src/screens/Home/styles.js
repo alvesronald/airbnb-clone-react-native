@@ -1,4 +1,7 @@
-import {StyleSheet, Dimensions} from 'react-native';
+import {StyleSheet, Dimensions, Platform} from 'react-native';
+
+const ANDROID_PLATFORM = Platform.OS === 'android';
+const IOS_PLATFORM = Platform.OS === 'ios';
 
 const styles = StyleSheet.create({
   image: {
@@ -38,9 +41,9 @@ const styles = StyleSheet.create({
     borderRadius: 30,
     flexDirection: 'row',
     position: 'absolute',
-    top: 20,
+    top: ANDROID_PLATFORM ? 20 : 50,
     zIndex: 100, // IOS
-    elevation: 100 // ANDROID
+    elevation: 100, // ANDROID
   },
   searchButtonText: {
     fontSize: 16,
