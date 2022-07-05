@@ -26,6 +26,20 @@ const styles = StyleSheet.create({
     actionText:{
         fontSize: 20, 
         color: '#474747'
+    },
+    searchButton: {
+        backgroundColor: '#F15454',
+        marginBottom: 20,
+        alignItems:'center',
+        justifyContent: 'center',
+        height: 50,
+        marginHorizontal: 20,
+        borderRadius: 10,
+    },
+    searchButtonText:{
+        fontSize: 16, 
+        color: 'white', 
+        fontWeight: 'bold',
     }
 });
 
