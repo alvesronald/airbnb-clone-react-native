@@ -8,10 +8,6 @@ import DestinationSearchScreen from './src/screens/DestinationSearch';
 import GuestsScreen from './src/screens/Guests';
 import Routes from './src/navigation/Routes';
 
-// components
-
-
-
 const App = () => {
   return <Routes />
 };
